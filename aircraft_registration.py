@@ -20,9 +20,10 @@ def _digits(count: int) -> str:
 
 
 def _us() -> str:
-    # Simplified fixed-length N-number: 5 total characters.
-    # Example format: N1234
-    return f"N{_digits(4)}"
+    # FAA N-number format simplified: N + 1-5 digits + optional suffix letters.
+    digit_count = random.randint(1, 5)
+    suffix = _letters(random.choice([0, 1, 2]))
+    return f"N{_digits(digit_count)}{suffix}"
 
 
 def _canada() -> str:

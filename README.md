@@ -16,16 +16,6 @@ It supports both:
 - Australia (`australia`)
 - Japan (`japan`)
 
-### Registration Formats (fixed length)
-
-- United States: `N1234` (5 chars)
-- Canada: `C-FABC` (6 chars)
-- United Kingdom: `G-ABCD` (6 chars)
-- Germany: `D-ABCD` (6 chars)
-- France: `F-ABCD` (6 chars)
-- Australia: `VH-ABC` (6 chars)
-- Japan: `JA1234` (6 chars)
-
 ## CLI Usage
 
 ```bash
@@ -49,6 +39,6 @@ In GUI mode:
 ```text
 Country: United States
 Generated registration(s):
-- N4812
-- N0092
+- N4812Q
+- N92
 ```
